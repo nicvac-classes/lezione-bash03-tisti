@@ -1,0 +1,17 @@
+Benvenuti nel corso di Informatica della scoula IISS Marconi.
+
+In qeusto corso imparerete i fondamenti della programmazione,
+dei sistemi opertivi e delle reti di calcolaotri.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un pò di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli stuenti!

@@ -1,0 +1,103 @@
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ bash setup.sh 
+🔧 Creazione ambiente di esercitazione...
+
+✅ Ambiente creato con successo!
+
+📁 Struttura creata in: /workspaces/lezione-bash03-tisti/esercizi/
+
+Contenuto:
+/workspaces/lezione-bash03-tisti/esercizi/
+├── dati
+│   ├── contatti.txt
+│   ├── dipendenti.csv
+│   ├── studenti.csv
+│   ├── testo_da_correggere.txt
+│   └── voti_registro.txt
+├── log
+│   ├── accessi.log
+│   └── server.log
+├── progetto
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── img
+│   │       ├── banner.jpg
+│   │       ├── icon_home.svg
+│   │       ├── icon_settings.svg
+│   │       ├── logo.png
+│   │       ├── screenshot01.png
+│   │       └── screenshot02.png
+│   ├── build
+│   │   ├── App.class
+│   │   ├── Server.class
+│   │   └── TestApp.class
+│   ├── config
+│   │   ├── app.cfg
+│   │   └── database.cfg
+│   ├── docs
+│   │   └── README.md
+│   ├── src
+│   │   ├── main
+│   │   │   ├── App.java
+│   │   │   ├── Server.java
+│   │   │   └── index.html
+│   │   ├── test
+│   │   │   └── TestApp.java
+│   │   └── utils
+│   │       ├── Config.java
+│   │       └── Logger.java
+│   ├── .env
+│   ├── build.sh
+│   └── deploy.sh
+└── sandbox
+
+15 directories, 29 files
+
+🚀 Sei pronto per iniziare gli esercizi! Apri il README.md
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -name "*.java"
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/App.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -type d
+esercizi/progetto
+esercizi/progetto/assets
+esercizi/progetto/assets/css
+esercizi/progetto/assets/img
+esercizi/progetto/docs
+esercizi/progetto/config
+esercizi/progetto/build
+esercizi/progetto/src
+esercizi/progetto/src/test
+esercizi/progetto/src/utils
+esercizi/progetto/src/main
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -name "*config*"
+esercizi/progetto/config
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -iname "*config*"
+esercizi/progetto/config
+esercizi/progetto/src/utils/Config.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -iname "*.java" -exec exho {} \;
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -iname "*.java" -exec exho {} \;
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+find: ‘exho’: No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -iname "*.java" -exec echo {} \;
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/App.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ #commento?
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ commento
+bash: commento: command not found
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ # domande teoriche , 1) che iniziano con il cancelletto  2) dei numeri 3) che finiscono con .java 4) vuote 5) parole con  minuscol
+e e  maiuscole
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ 

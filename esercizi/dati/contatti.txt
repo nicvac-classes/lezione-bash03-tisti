@@ -1,0 +1,31 @@
+Rubrica contatti - aggiornata al 15/01/2024
+
+Mario Rossi
+  Email: mario.rossi@gmail.com
+  Telefono: 333-1234567
+  Indirizzo: Via Roma 15, 70100 Bari
+
+Laura Bianchi
+  Email: l.bianchi@outlook.it
+  Telefono: 320-9876543
+  Indirizzo: Corso Italia 42, 80100 Napoli
+
+Paolo Verdi
+  Email: p.verdi@yahoo.com
+  Telefono: 347-5551234
+  Indirizzo: Via Garibaldi 8, 20100 Milano
+
+Anna Neri
+  Email: anna_neri@libero.it
+  Telefono: 338-4445566
+  Indirizzo: Piazza Duomo 1, 50100 Firenze
+
+Supporto tecnico
+  Email: supporto@azienda.it
+  Telefono: 080-5551000
+  Indirizzo: Via Amendola 173, 70126 Bari
+
+Segreteria scuola
+  Email: segreteria@scuola.edu.it
+  Telefono: 080-5552000
+  Indirizzo: Via Marconi 100, 70100 Bari

@@ -1,0 +1,11 @@
+id;cognome;nome;reparto;stipendio;citta
+D001;Bianchi;Marco;Sviluppo;32000;Milano
+D002;Rossi;Anna;Marketing;28000;Roma
+D003;Verdi;Luca;Sviluppo;35000;Milano
+D004;Neri;Sara;Amministrazione;26000;Napoli
+D005;Ferrari;Paolo;Sviluppo;38000;Torino
+D006;Romano;Elena;Marketing;30000;Roma
+D007;Colombo;Andrea;Amministrazione;27000;Milano
+D008;Ricci;Giulia;Sviluppo;33000;Bologna
+D009;Marino;Francesco;Marketing;29000;Roma
+D010;Greco;Chiara;Amministrazione;25000;Napoli

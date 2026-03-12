@@ -1,0 +1,22 @@
+# Registro voti - Informatica 4A - Primo quadrimestre
+# Formato: DATA | COGNOME | VOTO | TIPO
+2024-09-20 | Rossi | 7 | scritto
+2024-09-20 | Bianchi | 8 | scritto
+2024-09-20 | Ferrari | 5 | scritto
+2024-09-20 | Colombo | 9 | scritto
+2024-09-20 | Marino | 7 | scritto
+2024-10-05 | Rossi | 8 | orale
+2024-10-05 | Bianchi | 9 | orale
+2024-10-05 | Ferrari | 6 | orale
+2024-10-05 | Colombo | 8 | orale
+2024-10-05 | Marino | 7 | orale
+2024-11-12 | Rossi | 7 | pratico
+2024-11-12 | Bianchi | 8 | pratico
+2024-11-12 | Ferrari | 5 | pratico
+2024-11-12 | Colombo | 9 | pratico
+2024-11-12 | Marino | 8 | pratico
+2024-12-10 | Rossi | 8 | scritto
+2024-12-10 | Bianchi | 7 | scritto
+2024-12-10 | Ferrari | 6 | scritto
+2024-12-10 | Colombo | 8 | scritto
+2024-12-10 | Marino | 9 | scritto

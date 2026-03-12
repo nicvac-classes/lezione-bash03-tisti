@@ -1,0 +1,28 @@
+2024-01-15 08:00:01 INFO  [main] Server avviato sulla porta 8080
+2024-01-15 08:00:02 INFO  [main] Connessione al database stabilita
+2024-01-15 08:05:15 INFO  [http] GET /index.html 200 12ms
+2024-01-15 08:05:16 INFO  [http] GET /style.css 200 3ms
+2024-01-15 08:10:30 WARN  [auth] Tentativo login fallito per utente admin da 192.168.1.50
+2024-01-15 08:10:31 WARN  [auth] Tentativo login fallito per utente admin da 192.168.1.50
+2024-01-15 08:10:32 ERROR [auth] Account admin bloccato dopo 2 tentativi falliti
+2024-01-15 08:15:00 INFO  [http] GET /api/users 200 45ms
+2024-01-15 08:15:01 INFO  [http] POST /api/users 201 120ms
+2024-01-15 08:20:00 WARN  [http] GET /api/reports 403 5ms
+2024-01-15 08:25:10 INFO  [http] GET /index.html 200 8ms
+2024-01-15 08:30:00 ERROR [db] Timeout connessione al database dopo 30s
+2024-01-15 08:30:05 INFO  [db] Riconnessione al database riuscita
+2024-01-15 08:35:00 INFO  [http] DELETE /api/users/42 200 30ms
+2024-01-15 08:40:15 INFO  [http] GET /api/products 200 22ms
+2024-01-15 08:45:00 WARN  [auth] Tentativo login fallito per utente guest da 10.0.0.5
+2024-01-15 08:50:00 INFO  [http] PUT /api/products/7 200 55ms
+2024-01-15 08:55:30 ERROR [http] GET /api/orders 500 2005ms
+2024-01-15 09:00:00 INFO  [main] Backup automatico avviato
+2024-01-15 09:05:00 INFO  [main] Backup completato - 1.2GB
+2024-01-15 09:10:00 INFO  [http] GET /index.html 200 10ms
+2024-01-15 09:15:00 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:01 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:02 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:03 ERROR [auth] Account root bloccato dopo 3 tentativi falliti
+2024-01-15 09:20:00 INFO  [http] GET /api/dashboard 200 150ms
+2024-01-15 09:25:00 INFO  [http] POST /api/login 200 80ms
+2024-01-15 09:30:00 INFO  [main] Server in esecuzione da 1h 30m - nessun problema critico
