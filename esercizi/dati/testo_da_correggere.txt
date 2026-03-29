@@ -1,4 +1,4 @@
-Benvenuti nel corso di Informatica della scoula IISS Marconi.
+Benvenuti nel corso di Informatica della scuola IISS Marconi.
 
 In qeusto corso imparerete i fondamenti della programmazione,
 dei sistemi opertivi e delle reti di calcolaotri.
@@ -11,7 +11,7 @@ Gli orari delle lezioni sono:
 - Mercoledì: 10:00 - 12:00 (aula)
 - Venerdì: 14:00 - 16:00 (laboratorio)
 
-Per contattare il docente scrivere a prof@vecchiamail.it
+Per contattare il docente scrivere a prof@nuovamail.it
 oppure usare il registro elettronico.
 
 Buon lavoro a tutti gli stuenti!

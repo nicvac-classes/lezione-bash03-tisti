@@ -1,0 +1,400 @@
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ bash setup.sh 
+🔧 Creazione ambiente di esercitazione...
+
+✅ Ambiente creato con successo!
+
+📁 Struttura creata in: /workspaces/lezione-bash03-tisti/esercizi/
+
+Contenuto:
+/workspaces/lezione-bash03-tisti/esercizi/
+├── dati
+│   ├── contatti.txt
+│   ├── dipendenti.csv
+│   ├── studenti.csv
+│   ├── testo_da_correggere.txt
+│   └── voti_registro.txt
+├── log
+│   ├── accessi.log
+│   └── server.log
+├── progetto
+│   ├── assets
+│   │   ├── css
+│   │   │   └── style.css
+│   │   └── img
+│   │       ├── banner.jpg
+│   │       ├── icon_home.svg
+│   │       ├── icon_settings.svg
+│   │       ├── logo.png
+│   │       ├── screenshot01.png
+│   │       └── screenshot02.png
+│   ├── build
+│   │   ├── App.class
+│   │   ├── Server.class
+│   │   └── TestApp.class
+│   ├── config
+│   │   ├── app.cfg
+│   │   └── database.cfg
+│   ├── docs
+│   │   └── README.md
+│   ├── src
+│   │   ├── main
+│   │   │   ├── App.java
+│   │   │   ├── Server.java
+│   │   │   └── index.html
+│   │   ├── test
+│   │   │   └── TestApp.java
+│   │   └── utils
+│   │       ├── Config.java
+│   │       └── Logger.java
+│   ├── .env
+│   ├── build.sh
+│   └── deploy.sh
+└── sandbox
+
+15 directories, 29 files
+
+🚀 Sei pronto per iniziare gli esercizi! Apri il README.md
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find -name "*.java" esercizi/progetto/
+find: paths must precede expression: `esercizi/progetto/'
+find: possible unquoted pattern after predicate `-name'?
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ ls
+README.md  Report.txt  esercizi  setup.sh
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find -name "*.java" esercizi/progetto
+find: paths must precede expression: `esercizi/progetto'
+find: possible unquoted pattern after predicate `-name'?
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi/progetto "*.java"
+esercizi/progetto
+esercizi/progetto/assets
+esercizi/progetto/assets/css
+esercizi/progetto/assets/css/style.css
+esercizi/progetto/assets/img
+esercizi/progetto/assets/img/icon_settings.svg
+esercizi/progetto/assets/img/logo.png
+esercizi/progetto/assets/img/screenshot01.png
+esercizi/progetto/assets/img/banner.jpg
+esercizi/progetto/assets/img/icon_home.svg
+esercizi/progetto/assets/img/screenshot02.png
+esercizi/progetto/docs
+esercizi/progetto/docs/README.md
+esercizi/progetto/deploy.sh
+esercizi/progetto/build.sh
+esercizi/progetto/config
+esercizi/progetto/config/app.cfg
+esercizi/progetto/config/database.cfg
+esercizi/progetto/build
+esercizi/progetto/build/Server.class
+esercizi/progetto/build/TestApp.class
+esercizi/progetto/build/App.class
+esercizi/progetto/src
+esercizi/progetto/src/test
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/index.html
+esercizi/progetto/src/main/App.java
+esercizi/progetto/.env
+find: ‘*.java’: No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi/progetto -name "*.java"
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/App.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi/progetto -type f
+esercizi/progetto/assets/css/style.css
+esercizi/progetto/assets/img/icon_settings.svg
+esercizi/progetto/assets/img/logo.png
+esercizi/progetto/assets/img/screenshot01.png
+esercizi/progetto/assets/img/banner.jpg
+esercizi/progetto/assets/img/icon_home.svg
+esercizi/progetto/assets/img/screenshot02.png
+esercizi/progetto/docs/README.md
+esercizi/progetto/deploy.sh
+esercizi/progetto/build.sh
+esercizi/progetto/config/app.cfg
+esercizi/progetto/config/database.cfg
+esercizi/progetto/build/Server.class
+esercizi/progetto/build/TestApp.class
+esercizi/progetto/build/App.class
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/index.html
+esercizi/progetto/src/main/App.java
+esercizi/progetto/.env
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi/progetto -type d
+esercizi/progetto
+esercizi/progetto/assets
+esercizi/progetto/assets/css
+esercizi/progetto/assets/img
+esercizi/progetto/docs
+esercizi/progetto/config
+esercizi/progetto/build
+esercizi/progetto/src
+esercizi/progetto/src/test
+esercizi/progetto/src/utils
+esercizi/progetto/src/main
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi -name "*config*"
+esercizi/progetto/config
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi -name "*config*" -exec echo {} \;
+esercizi/progetto/config
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi -iname "*config*" -exec echo {} \;
+esercizi/progetto/config
+esercizi/progetto/src/utils/Config.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find  esercizi -iname "*config*"
+esercizi/progetto/config
+esercizi/progetto/src/utils/Config.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep esercizi/log/server.log "ERROR"
+grep: ERROR: No such file or directory
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep "ERROR"  esercizi/log/server.log 
+2024-01-15 08:10:32 ERROR [auth] Account admin bloccato dopo 2 tentativi falliti
+2024-01-15 08:30:00 ERROR [db] Timeout connessione al database dopo 30s
+2024-01-15 08:55:30 ERROR [http] GET /api/orders 500 2005ms
+2024-01-15 09:15:03 ERROR [auth] Account root bloccato dopo 3 tentativi falliti
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -E "ERROR | WARN"  esercizi/log/server.log
+2024-01-15 08:10:30 WARN  [auth] Tentativo login fallito per utente admin da 192.168.1.50
+2024-01-15 08:10:31 WARN  [auth] Tentativo login fallito per utente admin da 192.168.1.50
+2024-01-15 08:10:32 ERROR [auth] Account admin bloccato dopo 2 tentativi falliti
+2024-01-15 08:20:00 WARN  [http] GET /api/reports 403 5ms
+2024-01-15 08:30:00 ERROR [db] Timeout connessione al database dopo 30s
+2024-01-15 08:45:00 WARN  [auth] Tentativo login fallito per utente guest da 10.0.0.5
+2024-01-15 08:55:30 ERROR [http] GET /api/orders 500 2005ms
+2024-01-15 09:15:00 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:01 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:02 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:03 ERROR [auth] Account root bloccato dopo 3 tentativi falliti
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -c "ERROR" esercizi/log/server.log 
+4
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -c "WARN" esercizi/log/server.log 
+7
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -v "INFO" esercizi/log/server.log 
+2024-01-15 08:10:30 WARN  [auth] Tentativo login fallito per utente admin da 192.168.1.50
+2024-01-15 08:10:31 WARN  [auth] Tentativo login fallito per utente admin da 192.168.1.50
+2024-01-15 08:10:32 ERROR [auth] Account admin bloccato dopo 2 tentativi falliti
+2024-01-15 08:20:00 WARN  [http] GET /api/reports 403 5ms
+2024-01-15 08:30:00 ERROR [db] Timeout connessione al database dopo 30s
+2024-01-15 08:45:00 WARN  [auth] Tentativo login fallito per utente guest da 10.0.0.5
+2024-01-15 08:55:30 ERROR [http] GET /api/orders 500 2005ms
+2024-01-15 09:15:00 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:01 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:02 WARN  [auth] Tentativo login fallito per utente root da 203.0.113.42
+2024-01-15 09:15:03 ERROR [auth] Account root bloccato dopo 3 tentativi falliti
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -rn "TODO" esercizi
+esercizi/progetto/assets/css/style.css:20:/* TODO: aggiungere stile responsive */
+esercizi/progetto/src/test/TestApp.java:7:        // TODO: scrivere test per avvio applicazione
+esercizi/progetto/src/test/TestApp.java:12:        // TODO: verificare caricamento configurazione
+esercizi/progetto/src/utils/Logger.java:22:        // TODO: implementare scrittura su file
+esercizi/progetto/src/utils/Config.java:7:    // TODO: implementare parsing del file di configurazione
+esercizi/progetto/src/main/Server.java:8:    // TODO: aggiungere gestione connessioni multiple
+esercizi/progetto/src/main/Server.java:13:        // TODO: implementare protocollo HTTP
+esercizi/progetto/src/main/App.java:13:        // TODO: implementare menu principale
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -E "[a-zA-Z0-9._]+@[a-zA-Z0-9]+\.[a-zA-Z]+" esercizi/dati/contatti.txt 
+  Email: mario.rossi@gmail.com
+  Email: l.bianchi@outlook.it
+  Email: p.verdi@yahoo.com
+  Email: anna_neri@libero.it
+  Email: supporto@azienda.it
+  Email: segreteria@scuola.edu.it
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep "401" esercizi/log/accessi.log 
+192.168.1.50 - admin [15/Jan/2024:08:10:30] "POST /login" 401 128
+192.168.1.50 - admin [15/Jan/2024:08:10:31] "POST /login" 401 128
+10.0.0.5 - guest [15/Jan/2024:08:45:00] "POST /login" 401 128
+203.0.113.42 - root [15/Jan/2024:09:15:00] "POST /login" 401 128
+203.0.113.42 - root [15/Jan/2024:09:15:01] "POST /login" 401 128
+203.0.113.42 - root [15/Jan/2024:09:15:02] "POST /login" 401 128
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/ -iname "*.java" -exec grep -l "import" {} \;
+esercizi/progetto/src/test/TestApp.java
+esercizi/progetto/src/utils/Logger.java
+esercizi/progetto/src/utils/Config.java
+esercizi/progetto/src/main/Server.java
+esercizi/progetto/src/main/App.java
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ cat esercizi/dati/testo_da_correggere.txt 
+Benvenuti nel corso di Informatica della scoula IISS Marconi.
+
+In qeusto corso imparerete i fondamenti della programmazione,
+dei sistemi opertivi e delle reti di calcolaotri.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un pò di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli stuenti!
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ sed "s/scoula/scuola/g" esercizi/dati/testo_da_correggere.txt 
+Benvenuti nel corso di Informatica della scuola IISS Marconi.
+
+In qeusto corso imparerete i fondamenti della programmazione,
+dei sistemi opertivi e delle reti di calcolaotri.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un pò di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli stuenti!
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ cat esercizi/dati/testo_da_correggere.txt 
+Benvenuti nel corso di Informatica della scoula IISS Marconi.
+
+In qeusto corso imparerete i fondamenti della programmazione,
+dei sistemi opertivi e delle reti di calcolaotri.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un pò di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli stuenti!
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ sed  -i "s/scoula/scuola/g" esercizi/dati/testo_da_correggere.txt 
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ cat esercizi/dati/testo_da_correggere.txt 
+Benvenuti nel corso di Informatica della scuola IISS Marconi.
+
+In qeusto corso imparerete i fondamenti della programmazione,
+dei sistemi opertivi e delle reti di calcolaotri.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un pò di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli stuenti!
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ sed  -i "s/scoula/scuola/g" -e "s/qeusto/questo/g" -e "s/opertivi/operativi/g" -e "s/calcolaotri/calcolatori" -e "s/Python/Python/g" -e "s/pò/po'/g" -e "s/stuenti/studenti/g" -e   esercizi/dati/testo_da_correggere.txt 
+sed: -e expression #3, char 25: unterminated `s' command
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ sed -e "s/scoula/scuola/g" -e "s/qeusto/questo/g" -e "s/opertivi/operativi/g" -e "s/calcolaotri/calcolatori" -e "s/Python
+/Python/g" -e "s/pò/po'/g" -e "s/stuenti/studenti/g" -e   esercizi/dati/testo_da_correggere.txt 
+sed: -e expression #4, char 25: unterminated `s' command
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ sed -e "s/scoula/scuola/g" \
+    -e "s/qeusto/questo/g" \
+    -e "s/opertivi/operativi/g" \
+    -e "s/calcolaotri/calcolatori/g" \
+    -e "s/Python/Python/g" \
+    -e "s/pò/po'/g" \
+    -e "s/stuenti/studenti/g" \
+    esercizi/dati/testo_da_correggere.txt
+Benvenuti nel corso di Informatica della scuola IISS Marconi.
+
+In questo corso imparerete i fondamenti della programmazione,
+dei sistemi operativi e delle reti di calcolatori.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un po' di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli studenti!
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ cat esercizi/dati/testo_da_correggere.txt 
+Benvenuti nel corso di Informatica della scuola IISS Marconi.
+
+In qeusto corso imparerete i fondamenti della programmazione,
+dei sistemi opertivi e delle reti di calcolaotri.
+
+Il linguaggio principale sarà Pyhton, ma vedremo anche Java
+e un pò di HTML per le pagine web.
+
+Gli orari delle lezioni sono:
+- Lunedì: 8:00 - 10:00 (laboratorio)
+- Mercoledì: 10:00 - 12:00 (aula)
+- Venerdì: 14:00 - 16:00 (laboratorio)
+
+Per contattare il docente scrivere a prof@vecchiamail.it
+oppure usare il registro elettronico.
+
+Buon lavoro a tutti gli stuenti!
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -r "1.0.3" esercizi/progetto/
+esercizi/progetto/docs/README.md:Versione corrente: 1.0.3
+esercizi/progetto/deploy.sh:# Deploy versione 1.0.3
+esercizi/progetto/deploy.sh:echo "Versione: 1.0.3"
+esercizi/progetto/config/app.cfg:app.version=1.0.3
+esercizi/progetto/src/main/index.html:    <p>Versione: 1.0.3</p>
+esercizi/progetto/src/main/App.java:    private static final String VERSION = "1.0.3";
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ find esercizi/progetto -type f -exec sed -i "s/1.0.3/2.0.0/g" {} \;
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep "1.0.3" esercizi/progetto/
+grep: esercizi/progetto/: Is a directory
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -r "1.0.3" esercizi/progetto/
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep -r "2.0.0" esercizi/progetto/
+esercizi/progetto/docs/README.md:Versione corrente: 2.0.0
+esercizi/progetto/deploy.sh:# Deploy versione 2.0.0
+esercizi/progetto/deploy.sh:echo "Versione: 2.0.0"
+esercizi/progetto/config/app.cfg:app.version=2.0.0
+esercizi/progetto/src/main/index.html:    <p>Versione: 2.0.0</p>
+esercizi/progetto/src/main/App.java:    private static final String VERSION = "2.0.0";
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ sed -i 's/prof@vecchiamail.it/prof@nuovamail.it/g' esercizi/dati/testo_da_correggere.txt
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ grep "prof" esercizi/dati/testo_da_correggere.txt 
+Per contattare il docente scrivere a prof@nuovamail.it
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ awk -F',' 'NR > 1 {print $3, $2}' esercizi/dati/studenti.csv
+Mario Rossi
+Laura Bianchi
+Paolo Verdi
+Anna Neri
+Luca Ferrari
+Sara Romano
+Marco Colombo
+Giulia Ricci
+Andrea Marino
+Elena Greco
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ awk -F',' 'NR > 1 && $5 >= 8' esercizi/dati/studenti.csv
+1002,Bianchi,Laura,4A,8.2,laura.bianchi@studenti.edu
+1004,Neri,Anna,4B,9.1,anna.neri@studenti.edu
+1007,Colombo,Marco,4A,8.5,marco.colombo@studenti.edu
+1010,Greco,Elena,4B,8.9,elena.greco@studenti.edu
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ awk -F',' '$4 == "4B" {print $2, "- media:", $5}' esercizi/dati/studenti.csv
+Verdi - media: 6.8
+Neri - media: 9.1
+Romano - media: 7.0
+Ricci - media: 6.3
+Greco - media: 8.9
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ awk -F';' 'NR > 1 {print $3, $2, "(" $4 ")"}' esercizi/dati/dipendenti.csv
+Marco Bianchi (Sviluppo)
+Anna Rossi (Marketing)
+Luca Verdi (Sviluppo)
+Sara Neri (Amministrazione)
+Paolo Ferrari (Sviluppo)
+Elena Romano (Marketing)
+Andrea Colombo (Amministrazione)
+Giulia Ricci (Sviluppo)
+Francesco Marino (Marketing)
+Chiara Greco (Amministrazione)
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ awk -F';' '$4 == "Sviluppo" {print $3, $2, "-", $5, "€"}' esercizi/dati/dipendenti.csv
+Marco Bianchi - 32000 €
+Luca Verdi - 35000 €
+Paolo Ferrari - 38000 €
+Giulia Ricci - 33000 €
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ awk -F';' 'NR > 1 && $5 > 30000 {print $3, $2, "-", $5, "€"}' esercizi/dati/dipendenti.csv
+Marco Bianchi - 32000 €
+Luca Verdi - 35000 €
+Paolo Ferrari - 38000 €
+Giulia Ricci - 33000 €
+@FestinoHS ➜ /workspaces/lezione-bash03-tisti (main) $ 

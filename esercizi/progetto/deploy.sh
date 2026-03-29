@@ -1,5 +1,5 @@
 #!/bin/bash
-# Deploy versione 1.0.3
+# Deploy versione 2.0.0
 echo "Deploy in corso..."
-echo "Versione: 1.0.3"
+echo "Versione: 2.0.0"
 echo "Deploy completato!"

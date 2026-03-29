@@ -13,4 +13,4 @@ Applicazione dimostrativa per il corso di informatica.
 
 ## Note
 Ultima modifica: 15 gennaio 2024
-Versione corrente: 1.0.3
+Versione corrente: 2.0.0
